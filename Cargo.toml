@@ -1,0 +1,11 @@
+[package]
+name = "persistent-mongo-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+colored = "3.0.0"
+configurable = { git = "ssh://git@github.com/AriaBagheri/configurable-rs", version = "0.1.0" }
+mongodb = "3.2.1"
+standard-error = { git = "ssh://git@github.com/AriaBagheri/standard-error-rs", version = "0.1.0" }
+tokio = { version = "1.43.0", features = ["macros", "rt-multi-thread", "sync", "time"] }
