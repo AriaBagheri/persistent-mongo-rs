@@ -1,5 +1,5 @@
 [package]
-name = "persistent-mongo-rs"
+name = "persistent-mongo"
 version = "0.1.0"
 edition = "2024"
 
